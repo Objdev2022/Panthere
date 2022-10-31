@@ -654,6 +654,12 @@ a {
     color: #575757!important;
 }
 
+/***** Ajouté ******/
+
+h2 {
+   /* font-weight: bold !important;*/
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +683,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /*font-size: 11px;*/
+
+    font-size: 15px;
+    
+    color:#F3976C!important;
+    font-weight: bold!important;
 }
 
 .tight-width-whitespace {
@@ -775,7 +786,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:white !important;              /* #F3976C!important;*/
 }
 
 .btn-atomic-tangerine {
