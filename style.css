@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+   /* background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -366,7 +366,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right:20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -438,6 +438,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: white!important;
+    
 }
 
 .mg-lg {
@@ -687,7 +689,8 @@ p {
 
     font-size: 15px;
     
-    color:#F3976C!important;
+   /* color:#F3976C!important;*/
+    color :#c27956!important;
     font-weight: bold!important;
 }
 
@@ -764,7 +767,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+   /* background-color: rgba(165, 147, 99, 0.7);*/
+   background-color: #9A6F1E;
     padding: 40px 40px 40px 40px;
 }
 
@@ -782,15 +786,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#A56845;   /* #F3976C;*/
 }
 
 .tc-white {
-    color:white !important;              /* #F3976C!important;*/
+    color:white !important; 
+   /* color : black !important;          /* #F3976C!important;*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c27956;          /* #F3976C;*/
+
     color: #FFFFFF!important;
 }
 
@@ -821,7 +827,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+   /* background-image: url("img/dots-bg.png");*/
 }
 
 .bg-lines-h2-bg {
